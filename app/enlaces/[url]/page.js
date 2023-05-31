@@ -21,7 +21,7 @@ const page = () => {
     try {
       const { data } = await axiosClient(`/links/${url}`)
       setPassword(data.password)
-      setDownloads(data.downloads || 1)
+      setDownloads(data.downloads )
       setLink(data.file)
     } catch (error) {
       showAlert({ msg: error.response.data.msg, error: true })
