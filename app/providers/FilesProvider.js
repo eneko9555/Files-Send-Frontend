@@ -12,7 +12,7 @@ const FilesProvider = ({ children }) => {
     const { auth } = useAuth()
     const [file, setFile] = useState({})
     const [password, setPassword] = useState("")
-    const [numberDownloads, setNumberDownloads] = useState(0)
+    const [numberDownloads, setNumberDownloads] = useState(1)
 
     function showAlert(alert) {
         setAlert(alert)
