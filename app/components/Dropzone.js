@@ -39,10 +39,10 @@ const Dropzone = () => {
                             <>
                                 <form className="m-2" >
                                     <label className="block">Descargas</label>
-                                    <input type="number" onChange={(e) => setNumberDownloads(+e.target.value)}/>
+                                    <input type="number" className="p-1 px-2 rounded-md border border-gray" onChange={(e) => setNumberDownloads(+e.target.value)}/>
 
                                     <label className="block mt-2">Contraseña</label>
-                                    <input type="password" onChange={(e) => setPassword(e.target.value)}/>
+                                    <input type="password" className="p-1 px-2 rounded-md border border-gray" onChange={(e) => setPassword(e.target.value)}/>
                                 </form>
                                 <button type="button" className="bg-cyan-700 w-full text-center py-2 rounded-md text-white  hover:opacity-70 duration-300" onClick={() => createLink()}>
                                     Crear Enlace

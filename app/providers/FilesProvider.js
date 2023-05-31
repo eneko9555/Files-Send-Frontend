@@ -81,7 +81,8 @@ const FilesProvider = ({ children }) => {
                 resetState,
                 filesList,
                 setNumberDownloads,
-                setPassword
+                setPassword,
+                password
             }}
         >
             {children}
