@@ -1,4 +1,4 @@
-"use client"
+
 import './globals.css'
 import Header from './components/Header'
 import { AuthProvider } from './providers/AuthProvider'
