@@ -72,11 +72,11 @@ const page = () => {
             : password !== ""  && !validate && downloads > 1 && (
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col items-center p-2"
+                className="flex flex-col items-center p-2 gap-2"
               >
                 <label>Contraseña para descargar el archivo</label>
-                <input type="password" className="p-1" onChange={e => setPasswordClient(e.target.value)} />
-                <input type="submit" className="p-1 bg-cyan-700 text-white text-center font-semibold" />
+                <input type="password" className="p-1 rounded-md border-1 border-gray-400" onChange={e => setPasswordClient(e.target.value)} />
+                <input type="submit" className="p-1 bg-cyan-700 text-white text-center font-semibold rounded-md px-2" />
               </form>
             )
         }
