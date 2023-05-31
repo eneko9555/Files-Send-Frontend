@@ -75,8 +75,8 @@ const page = () => {
                 className="flex flex-col items-center p-2 gap-2"
               >
                 <label>Contraseña para descargar el archivo</label>
-                <input type="password" className="p-1 rounded-md border-1 border-gray-400" onChange={e => setPasswordClient(e.target.value)} />
-                <input type="submit" className="p-1 bg-cyan-700 text-white text-center font-semibold rounded-md px-2" />
+                <input type="password" className="p-1 rounded-md border-2 shadow-md border-gray-400" onChange={e => setPasswordClient(e.target.value)} />
+                <input type="submit" className="p-1 bg-cyan-700 text-white text-center font-semibold cursor-pointer hover:opacity-60 duration-200 mt-2 rounded-md px-3" />
               </form>
             )
         }
