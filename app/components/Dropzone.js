@@ -38,8 +38,8 @@ const Dropzone = () => {
                         : auth._id ?
                             <>
                                 <form className="m-2" >
-                                    <label className="block">Descargas</label>
-                                    <input type="number" className="p-1 px-2 rounded-md border border-gray" onChange={(e) => setNumberDownloads(+e.target.value)}/>
+                                    <label className="block"> Número de descargas</label>
+                                    <input type="number" className="p-1 px-2 rounded-md border border-gray" defaultValue={1} onChange={(e) => setNumberDownloads(+e.target.value)}/>
 
                                     <label className="block mt-2">Contraseña</label>
                                     <input type="password" className="p-1 px-2 rounded-md border border-gray" onChange={(e) => setPassword(e.target.value)}/>
