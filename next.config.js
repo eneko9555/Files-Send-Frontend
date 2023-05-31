@@ -2,7 +2,7 @@
 const nextConfig = {
     env: {
         BACKEND_URL: "https://files-send-backend.onrender.com/api",
-        FRONTEND_URL: "https://incredible-babka-3ae75e.netlify.app"
+        FRONTEND_URL: "https://files-send-frontend.vercel.app"
     },
 }
 
