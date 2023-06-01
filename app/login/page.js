@@ -9,8 +9,6 @@ import { PuffLoader } from "react-spinners"
 
 const page = () => {
 
-
-
   const { authenticateUser, alert, loading } = useAuth()
 
   const formik = useFormik({
